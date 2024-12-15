@@ -1,0 +1,97 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    background-image: url('/images/background.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: red; /* Solid red background */
+}
+
+header img {
+    width: 100px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on links */
+header ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.8); /* Slight red on hover */
+    border-radius: 5px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 50px 20px;
+    text-align: center;
+     /* Solid red background */
+}
+
+main section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main section p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white; /* White text */
+}
+
+main section input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid white; /* White border for contrast */
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for input */
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red; /* Solid red footer background */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
