@@ -16,4 +16,6 @@ A simple web page mimicking the layout of the Zomato website, featuring a header
    ```bash
    git clone https://github.com/yourusername/zomato-website.git
 
+2. type zomato_clone.html in your browser
+   
 
